@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS settlementinvoices;
+DROP TABLE IF EXISTS auctionevents;
+DROP TABLE IF EXISTS bididempotencykeys;
+DROP TABLE IF EXISTS bids;
+DROP TRIGGER IF EXISTS lotstateguard ON lots;
+DROP FUNCTION IF EXISTS enforcelotstatemachine();
+DROP TABLE IF EXISTS lotstatetransitions;
+DROP TABLE IF EXISTS auctionregistrations;
+DROP TABLE IF EXISTS bidders;
+DROP TABLE IF EXISTS lots;
+DROP TABLE IF EXISTS auctions;
+DROP TABLE IF EXISTS auctionhouses;
